@@ -21,7 +21,8 @@ This is a **C++ implementation** of a multi-campus communication system for FAST
 g++ server.cpp -o server -pthread
 ./server
 
-
+**Client:**
+```bash
 g++ client.cpp -o client -pthread
 ./client
 
@@ -45,6 +46,7 @@ TCP Messages: TargetCampus|TargetDept|Message
 UDP Heartbeat: CampusName|ONLINE
 
 Author: F23-0545 Zainab Noor
+
 
 
 
