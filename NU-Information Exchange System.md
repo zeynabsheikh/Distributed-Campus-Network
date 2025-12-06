@@ -9,21 +9,21 @@ This is a **C++ implementation** of a multi-campus communication system for FAST
 - **client.cpp** – Campus Client connecting to the server, sending/receiving messages, and sending periodic heartbeats.
 
 
-## How to Run
+### How to Run
 
 - We used **VMware** and **Ubuntu** for this project.
 - First, create files named `server.cpp` and `client.cpp`.
 - Commands to compile and run:
 
-### Server
+**Server:**
 
 ```bash
 g++ server.cpp -o server -pthread
 ./server
 
+
 g++ client.cpp -o client -pthread
 ./client
-```bash
 
 Enter Campus Name, Password, and Department when prompted.
 Use the menu to send messages to other campuses.
@@ -45,5 +45,6 @@ TCP Messages: TargetCampus|TargetDept|Message
 UDP Heartbeat: CampusName|ONLINE
 
 Author: F23-0545 Zainab Noor
+
 
 
